@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .component{
+            width: 36px;
+            height: 36px;
+            border-radius: 36px;
+            background: #000;
+            display: flex;
+            align-items: center;
+            animation:rotate-scale-down 0.4s linear both} @keyframes rotate-scale-down{0%{transform:scale(1) rotateZ(0)}50%{transform:scale(.5) rotateZ(180deg)}100%{transform:scale(1) rotateZ(360deg)}
+        }
+        .component span{
+            color: #fff;
+            
+        }
+        .component2{
+            width: 72px;
+            height: 72px;
+            background-color: bisque;
+            border-radius: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="component">
+        <span>
+            100%
+        </span>
+    </div>
+    <div class="component2">
+        <span>
+            50%
+        </span>
+    </div>
+</body>
+</html>
